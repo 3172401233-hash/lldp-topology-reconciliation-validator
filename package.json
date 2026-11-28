@@ -1,0 +1,15 @@
+{
+  "name": "lldp-topology-reconciliation-validator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LLDP 邻居对账器与持久状态存储：计算有效邻居、拓扑差异、错误边、孤立节点与待重采设备（不发送真实 LLDP）",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "reconcile": "node bin/lldp-reconcile.js"
+  },
+  "license": "UNLICENSED"
+}
